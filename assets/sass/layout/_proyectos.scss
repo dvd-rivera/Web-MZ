@@ -1,0 +1,30 @@
+.proyectos__container {
+    box-shadow: $cardShadow;
+    width: 100%;
+    padding: 15px 0;
+
+    h3 {
+        font-size: 1.3rem;
+        color: $gris;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.proyecto__img {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &-1 {
+        background-image: url(../img/oficina-garrigues.jpg);
+    }
+    &-2 {
+        background-image: url(../img/cocina-ja.jpg);
+    }
+    &-3 {
+        background-image: url(../img/retail-polo.jpg);
+    }
+}

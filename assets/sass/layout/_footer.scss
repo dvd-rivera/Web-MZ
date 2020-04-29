@@ -1,0 +1,24 @@
+footer {
+    background-color: $verde;
+    padding: 20px;
+
+    h4 {
+        color: white;
+        font-size: 1rem;
+    }
+
+    ul {
+        list-style-type: none;
+        color: white;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contacto__titulo {
+        font-weight: 700;
+    }
+
+    .footer__logo {
+        max-width: 50vw;
+    }
+}

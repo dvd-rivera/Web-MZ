@@ -1,0 +1,17 @@
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/animation';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navbar';
+@import 'layout/servicios';
+@import 'layout/about';
+@import 'layout/banner';
+@import 'layout/proyectos';
+@import 'layout/carousel-portafolio';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/accordion';

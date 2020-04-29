@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/img/Logo_MZ.svg" alt=""></a>
+      <button id="nav__hamburguer" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="#"><img src="" alt="Whatsapp"> Contacto</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#somos">Quienes Somos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header__background">
+    <div class="container">
+      <div class="header__text-container">
+        <div id="header__carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>Gerenciamiento y Administración de Proyectos</h2>
+            </div>
+            <div class="carousel-item">
+              <h2>Last Planner System</h2>
+            </div>
+            <div class="carousel-item">
+              <h2>Inspección Técnica de Obras</h2>
+            </div>
+            <div class="carousel-item">
+              <h2>Coordinación de Proyectos</h2>
+            </div>
+            <div class="carousel-item">
+              <h2>Asesoría de Construcción y Especialidades</h2>
+            </div>
+            <div class="carousel-item">
+              <h2>Licitación y adjudicación de Obras</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- accordion -->
+  <div class="container mt-3">
+    <div class="accordion" id="acordeon__preguntas">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              ¿Tu proveedor cumple como debería?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#acordeon__preguntas">
+          <div class="card__body">
+            Conoce el % de actividades cumplidas y/o causas de no cumplimiento para aprovechar tu presupuesto al máximo.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              ¿Cuál es tu nivel de Post-Venta a nivel comercial y economico?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#acordeon__preguntas">
+          <div class="card__body">
+            Un cliente satisfecho es la mejor publicidad que puedes tener y será más sencillo vender nuevamente a clientes satisfechos que conseguir nuevos.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              ¿Qué metodologías aplicas en tus proyectos?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#acordeon__preguntas">
+          <div class="card__body">
+            Muchas veces se realizan actividades que no generan valor, se pierde tiempo y dinero, por eso, es importante trabajar con una metodología que te permita identificar estas malas practicas y adelantarse con una mejor decisión.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="servicios" class="container-fluid servicios mt-5">
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <div class="row">
+        <div class="servicios__card col-6 col-md-4">
+          <div class="servicios__img servicios__img-1">
+            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+          </div>
+          <h3>Gerenciamiento y Administración de Proyectos</h3>
+        </div>
+        <div class="servicios__card col-6 col-md-4">
+          <div class="servicios__img servicios__img-2">
+            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+          </div>
+          <h3>Last <br> Planner <br> System</h3>
+        </div>
+        <div class="mt-3 servicios__card col-6 col-md-4 ">
+          <div class="servicios__img servicios__img-3">
+            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+          </div>
+          <h3>Inspección <br> Técnica de <br> Obras</h3>
+        </div>
+        <div class="mt-3 servicios__card col-6 col-md-4 ">
+          <div class="servicios__img servicios__img-4">
+            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+          </div>
+          <h3>Coordinación <br> de <br> Proyectos</h3>
+        </div>
+        <div class="mt-3 servicios__card col-6 col-md-4">
+          <div class="servicios__img servicios__img-5">
+            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+          </div>
+          <h3>Licitación y <br> Adjudicación <br> de Obras</h3>
+        </div>
+        <div class="servicios__card col-6 col-md-4 mt-3">
+          <div class="servicios__img servicios__img-6">
+            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+          </div>
+          <h3>Asesoría de <br> Construcción y <br> Especialidades</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-7">
+                  <h2 class="carousel__tittle">Gerenciamiento y Administración <br> de Proyectos</h2>
+                </div>
+                <div class="col-5 carousel__img carousel__img-1"></div>
+                <div class="col-12 mt-4">
+                  <p>Asesoría integral desde la concepción hasta el desarrollo y explotación del proyecto que comprende planificación, coordinación y dirección de cada una de las etapas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <h2 class="carousel__tittle">Last <br> Planner <br>System</h2>
+                </div>
+                <div class="col-6 carousel__img carousel__img-2"></div>
+                <div class="col-12 mt-4">
+                  <p>Metodología que proviene de la filosofía Lean Construcción, que se orienta en la 
+                    administración de la producción de proyectos, que busca eliminar actividades y elementos que no agregan valor (Perdidas), maximizando el área productiva. Last Planner System crea flujos de trabajo e indicadores que muestran y reacondicionan la planificación de obras corriente, permitiendo entregar Variables medibles como % de actividades cumplidas, Causas de no cumplimiento, Niveles de eficiencia, Matriz y % de cumplimiento de restricciones.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <h2 class="carousel__tittle">Inspección <br> Técnica <br> de Obras</h2>
+                </div>
+                <div class="col-6 carousel__img carousel__img-3"></div>
+                <div class="col-12 mt-4">
+                  <p>Su objetivo es velar por el cumplimiento de los aspectos administrativos y técnicos de la obra, donde su rol específico es cumplir con las normativas, especificaciones técnicas, bases administrativas y el contrato.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <h2 class="carousel__tittle">Coordinación<br> de <br>Proyectos</h2>
+                </div>
+                <div class="col-6 carousel__img carousel__img-4"></div>
+                <div class="col-12 mt-4">
+                  <p>Servicio que contempla la planificación de las especialidades y de la arquitectura, logrando descomprimir y liberar las interferencias que estas generan en la ejecución logrando maximizar los tiempos de las obras.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <h2 class="carousel__tittle">Licitación y<br> Adjudicación <br>de Obras</h2>
+                </div>
+                <div class="col-6 carousel__img carousel__img-5"></div>
+                <div class="col-12 mt-4">
+                  <p>Servicio que contempla dirigir el proceso de licitación a fin de obtener la mejor oferta económica y técnica, pasando desde la homologación de las ofertas hasta la recomendación para la adjudicación del mandante.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <h2 class="carousel__tittle">Asesoría de<br> Construcción y <br>Especialidades</h2>
+                </div>
+                <div class="col-6 carousel__img carousel__img-6"></div>
+                <div class="col-12 mt-4">
+                  <p>Servicio que tiene por objetivo asesorar a nuestros clientes en ámbitos como: Asesoría Técnica y legal, Prevención de riesgos, Estructura organizacional, Evaluación de proveedores y equipos de trabajos, entre otros.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="call-to-action container-fluid mt-5">
+    <h3>Cuentanos sobre tu proyecto</h3>
+    <button>Hablemos</button>
+  </section>
+  
+  <section id="proyectos" class="proyectos container-fluid mt-5">
+    <div class="container">
+      <h2>Proyectos</h2>
+    </div>
+    <div class="container p-0">
+      <div class="proyectos__container row m-0">
+        <div class="col-12 col-md-4">
+          <div class="proyecto__img proyecto__img-1"></div>
+          <h3>Oficinas Corporativas</h3>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="proyecto__img proyecto__img-2"></div>
+          <h3>Habitacional</h3>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="proyecto__img proyecto__img-3"></div>
+          <h3>Retail - Comercial</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="somos" class="container-fluid clientes mt-5">
+    <div class="container">
+      <h2>Clientes</h2>
+      <div class="row">
+        <div class="cliente__logo col-6 col-md-3">
+          <img src="assets/img/Logos/juzuval.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="cliente__logo col-6 col-md-3">
+          <img src="assets/img/Logos/melemec.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="cliente__logo col-6 col-md-3">
+          <img src="assets/img/Logos/ingeprod.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="cliente__logo col-6 col-md-3">
+          <img src="assets/img/Logos/gesys.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="somos container-fluid mt-5">
+    <div class="container ">
+      <h2>Quienes Somos</h2>
+      <div class="row somos__container">
+        <div class="col-12 col-md-4">
+          <img src="assets/img/equipo.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-8">
+          <p>Somos constructores Civiles con más de 10 años de experiencia en la construcción y gerenciamiento de proyectos corporativos, habilitación de espacios de trabajo, locales comerciales especializados, industriales y residenciales de alto estándar.</p>
+          <p>En Nuestros años de experiencia hemos participado en las grandes constructoras del rubro corporativo, en cargos de alto desempeño, es por eso que nace la idea de crear MZ apuntando a contribuir con mejores mediciones en los proyectos con el fin de manejar y mejorar los plazos y costos de la obra.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<footer class="mt-5 container-fluid">
+  <div class="container justify-content-between d-flex flex-column flex-md-row">
+    <div class="logo-legales__container d-flex align-items-center flex-column">
+      <img class="footer__logo" src="assets/img/Logo_MZ-blanco.svg" alt="">
+      <h4 class="d-none d-md-block">MZ Ingeniería SPA 2020.</h4>
+    </div>
+    <div class="footer__datos">
+      <ul class="mt-2">
+        <li class="contacto__titulo">Contacto</li>
+        <li>Martín de Zamora 5031, Las Condes.</li>
+        <li>contacto@mzingenieria.cl</li>
+        <li>Fono: +56 9 5714 6312</li>
+        <li>+56 9 8449 7482</li>
+      </ul>
+      <h4 class="d-block d-md-none text-center">MZ Ingeniería SPA 2020.</h4>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

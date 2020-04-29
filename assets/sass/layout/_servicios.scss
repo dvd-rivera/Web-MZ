@@ -1,0 +1,88 @@
+.servicios__card {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: $cardShadow;
+    max-width: 47%;
+}
+
+.servicios__img {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-1 {
+        background-image: url(../img/gerenciamiento.jpg);
+    }
+    &-2 {
+        background-image: url(../img/Last-planner.jpg);
+    }
+    &-3 {
+        background-image: url(../img/inspeccion-tecnica.jpg);
+    }
+    &-4 {
+        background-image: url(../img/coordinacion-proyectos.jpg);
+    }
+    &-5 {
+        background-image: url(../img/licitacion-obras.jpg);
+    }
+    &-6 {
+        background-image: url(../img/asesoria-construccion.jpg);
+    }
+}
+
+.servicios__img button {
+    background-color: rgba($color: white, $alpha: 0);
+    border: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: rgba($color: white, $alpha: 0.5);
+        opacity: 1;
+    }
+}
+
+.servicios__card h3 {
+    margin-top: 10px;
+    padding-left: 5px;
+    color: $gris;
+    font-size: 0.7rem;
+    border-left: 5px green solid;
+    margin-bottom: 0;
+}
+
+.servicios__card:nth-of-type(odd){
+    margin-right: 5px;
+} 
+
+
+// media para margen izquierdo servicios
+@media (min-width: 370px) {
+    .servicios__card:nth-of-type(odd){
+        margin-right: 15px;
+    }
+
+    .servicios__card h3 {
+        font-size: 1rem;
+        border-left: 7px green solid;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .servicios__card:nth-of-type(odd){
+        margin-right: 0px;
+    }
+    .servicios__card {
+        margin-top: 0;
+    }
+}

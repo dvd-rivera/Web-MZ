@@ -1,0 +1,42 @@
+.accordion .card button {
+    text-align: left;
+    color: $color-oscuro;
+    font-family: $opensans;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+.accordion .card button:focus {
+    text-decoration: none;
+    
+}
+
+.accordion .card .card-header {
+    padding: 5px;
+    padding-bottom: 0;
+    background-color: white;
+    border: none;
+}
+
+.accordion .card {
+    border: none;
+}
+
+.collapse .card__body, .collapsing .card__body {
+    color: $gris;
+    height: auto;
+    font-size: 0.8rem;
+    padding-top: 0;
+    padding-left: 20px;
+    
+}
+
+.accordion .card button img {
+    width: 10px;
+    transition: transform;
+}
+
+.accordion .card button img:focus {
+    transform: rotate(90deg);
+    transition: transform;
+}

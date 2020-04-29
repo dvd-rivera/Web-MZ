@@ -1,0 +1,14 @@
+{
+  "name": "good-vibes-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "live-server" : "live-server --host=0.0.0.0 --port=34",
+    "sass-watch"  : "sass --watch assets/sass/main.scss:assets/css/style.css"
+  },
+  "author": "David Rivera",
+  "devDependencies": {
+    "copyfiles": "^2.1.1",
+    "sass": "^1.23.7"
+  }
+}

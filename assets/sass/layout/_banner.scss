@@ -1,0 +1,24 @@
+.call-to-action {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+
+    h3 {
+        font-family: $opensans;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    button {
+        background-color: white;
+        margin-top: 5px;
+        color: red;
+        padding: 7px 20px;
+        border: none;
+        border-radius: 2px;
+        font-family: $opensans;
+        outline: none;
+    }
+}

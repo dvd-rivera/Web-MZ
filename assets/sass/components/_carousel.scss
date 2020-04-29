@@ -1,0 +1,64 @@
+.modal-header {
+    border: none;
+    padding-bottom: 0;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.carousel__tittle {
+    font-size: 1.2rem;
+    border-left: 5px $verde solid;
+    padding-left: 10px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.carousel__img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+
+    &-1 {
+        background-image: url(../img/gerenciamiento.jpg);
+    }
+
+    &-2 {
+        background-image: url(../img/last-planner.jpg);
+    }
+
+    &-3 {
+        background-image: url(../img/inspeccion-tecnica.jpg);
+    }
+
+    &-4 {
+        background-image: url(../img/coordinacion-proyectos.jpg);
+    }
+
+    &-5 {
+        background-image: url(../img/licitacion-obras.jpg);
+    }
+
+    &-6 {
+        background-image: url(../img/asesoria-construccion.jpg);
+    }
+}
+
+.carousel-indicators li {
+    background-color: $gris;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-item p {
+    color: $gris;
+    font-size: 0.9rem;
+    padding-left: 10px;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin-bottom: 0;
+}
