@@ -1,8 +1,7 @@
 header {
     margin-top: 50px;
     width: 100vw;
-    min-height: 200px;
-    max-height: 300px;
+    height: 150px;
     padding: 20px;
     position: relative;
 }
@@ -11,7 +10,7 @@ header {
     background-image: url(../img/header__background.jpg);
     background-size: 200%;
     background-repeat: no-repeat;
-    animation: header__background 10s infinite;
+    animation: header__background 60s infinite;
     background-position: center;
     box-shadow: $cardShadow;
 }
@@ -39,5 +38,23 @@ header h2 {
 }
 
 @media (min-width: 768px) {
-    
+    .header__text-container {
+        bottom: 20px;
+        right: 50px;
+    }
+
+    header {
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header__text-container {
+        bottom: 20px;
+        right: 130px;
+    }
+
+    header {
+        height: 400px;
+    }
 }
