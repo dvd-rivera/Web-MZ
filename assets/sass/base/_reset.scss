@@ -1,7 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: $opensans;
 }
 
 h2 {
     margin-bottom: 20px;
+    font-weight: 700;
 }

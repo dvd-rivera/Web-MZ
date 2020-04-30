@@ -1,0 +1,21 @@
+.grafico {
+    margin-top: 40px;
+    
+}
+
+.grafico__container {
+    box-shadow: $cardShadow;
+    padding: 40px;
+
+    h2 {
+        font-weight: 700;
+    }
+
+    p {
+        color: $gris;
+    }
+
+    p:last-child {
+        font-weight: 700;
+    }
+}

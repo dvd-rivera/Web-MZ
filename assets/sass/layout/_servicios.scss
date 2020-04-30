@@ -1,9 +1,8 @@
 .servicios__card {
-    width: 100%;
     padding: 10px;
     border-radius: 2px;
     box-shadow: $cardShadow;
-    max-width: 47%;
+    width: 49%;
 }
 
 .servicios__img {
@@ -54,35 +53,50 @@
     margin-top: 10px;
     padding-left: 5px;
     color: $gris;
-    font-size: 0.7rem;
-    border-left: 5px green solid;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-left: 5px $verde solid;
     margin-bottom: 0;
 }
 
-.servicios__card:nth-of-type(odd){
-    margin-right: 5px;
-} 
+.card-3, .card-4, .card-5, .card-6 {
+    margin-top: 10px;
+}
+
+#servicios .container {
+    padding: 0;
+}
+
 
 
 // media para margen izquierdo servicios
 @media (min-width: 370px) {
-    .servicios__card:nth-of-type(odd){
-        margin-right: 15px;
-    }
 
     .servicios__card h3 {
-        font-size: 1rem;
-        border-left: 7px green solid;
+        font-size: 0.8rem;
+        border-left: 7px $verde solid;
         padding-left: 10px;
     }
 }
 
 @media (min-width: 768px) {
 
-    .servicios__card:nth-of-type(odd){
-        margin-right: 0px;
-    }
     .servicios__card {
-        margin-top: 0!important;
+        width: 32%;
+        padding: 20px;
+    }
+
+    .card-3 {
+        margin-top: 0;
+    }
+
+    .servicios__card h3 {
+        font-size: 1.1rem;
+        max-width: 70%;
+        border-left: 10px $verde solid;
+    }
+
+    .servicios__img {
+        height: 150px;
     }
 }

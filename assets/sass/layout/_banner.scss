@@ -1,5 +1,5 @@
 .call-to-action {
-    background-color: red;
+    background-color: #F1240C;
     text-align: center;
     color: white;
     padding: 20px;
@@ -9,16 +9,35 @@
         font-family: $opensans;
         font-weight: 700;
         font-size: 1.5rem;
+        
     }
 
     button {
         background-color: white;
         margin-top: 5px;
-        color: red;
+        color: #F1240C;
         padding: 7px 20px;
         border: none;
         border-radius: 2px;
         font-family: $opensans;
         outline: none;
+        font-weight: 500;
     }
+}
+
+@media (min-width: 992px) {
+    .call-to-action {
+        padding: 40px;
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 25px;
+            font-size: 1.2rem;
+        }
+    }
+
 }

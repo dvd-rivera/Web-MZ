@@ -1,9 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
 }
 
 h2 {
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 @keyframes header__background {
@@ -75,6 +80,10 @@ header h2 {
   header {
     height: 400px;
   }
+
+  .header__background {
+    background-size: 120%;
+  }
 }
 footer {
   background-color: #699C11;
@@ -121,11 +130,10 @@ nav li {
 }
 
 .servicios__card {
-  width: 100%;
   padding: 10px;
   border-radius: 2px;
   box-shadow: 0 0 15px rgba(17, 20, 38, 0.2);
-  max-width: 47%;
+  width: 49%;
 }
 
 .servicios__img {
@@ -174,33 +182,45 @@ nav li {
   margin-top: 10px;
   padding-left: 5px;
   color: #465147;
-  font-size: 0.7rem;
-  border-left: 5px green solid;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-left: 5px #699C11 solid;
   margin-bottom: 0;
 }
 
-.servicios__card:nth-of-type(odd) {
-  margin-right: 5px;
+.card-3, .card-4, .card-5, .card-6 {
+  margin-top: 10px;
+}
+
+#servicios .container {
+  padding: 0;
 }
 
 @media (min-width: 370px) {
-  .servicios__card:nth-of-type(odd) {
-    margin-right: 15px;
-  }
-
   .servicios__card h3 {
-    font-size: 1rem;
-    border-left: 7px green solid;
+    font-size: 0.8rem;
+    border-left: 7px #699C11 solid;
     padding-left: 10px;
   }
 }
 @media (min-width: 768px) {
-  .servicios__card:nth-of-type(odd) {
-    margin-right: 0px;
+  .servicios__card {
+    width: 32%;
+    padding: 20px;
   }
 
-  .servicios__card {
-    margin-top: 0 !important;
+  .card-3 {
+    margin-top: 0;
+  }
+
+  .servicios__card h3 {
+    font-size: 1.1rem;
+    max-width: 70%;
+    border-left: 10px #699C11 solid;
+  }
+
+  .servicios__img {
+    height: 150px;
   }
 }
 .somos__container {
@@ -211,10 +231,25 @@ nav li {
 .somos__container p {
   margin-top: 20px;
   color: #465147;
+  font-weight: 500;
 }
 
+.somos__img {
+  background-image: url(../img/equipo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 200px;
+}
+
+@media (min-width: 992px) {
+  .somos__container p {
+    margin-top: 0px;
+  }
+}
 .call-to-action {
-  background-color: red;
+  background-color: #F1240C;
   text-align: center;
   color: white;
   padding: 20px;
@@ -227,14 +262,28 @@ nav li {
 .call-to-action button {
   background-color: white;
   margin-top: 5px;
-  color: red;
+  color: #F1240C;
   padding: 7px 20px;
   border: none;
   border-radius: 2px;
   font-family: "Open Sans", sans-serif;
   outline: none;
+  font-weight: 500;
 }
 
+@media (min-width: 992px) {
+  .call-to-action {
+    padding: 40px;
+  }
+  .call-to-action h3 {
+    font-size: 2rem;
+  }
+  .call-to-action button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+  }
+}
 .proyectos__container {
   box-shadow: 0 0 15px rgba(17, 20, 38, 0.2);
   width: 100%;
@@ -245,6 +294,7 @@ nav li {
   color: #465147;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .proyecto__img {
@@ -264,6 +314,33 @@ nav li {
   background-image: url(../img/retail-polo.jpg);
 }
 
+@media (min-width: 992px) {
+  .proyecto__img {
+    filter: saturate(0);
+    transition: all 0.5s;
+  }
+  .proyecto__img:hover {
+    filter: saturate(1);
+  }
+}
+.grafico {
+  margin-top: 40px;
+}
+
+.grafico__container {
+  box-shadow: 0 0 15px rgba(17, 20, 38, 0.2);
+  padding: 40px;
+}
+.grafico__container h2 {
+  font-weight: 700;
+}
+.grafico__container p {
+  color: #465147;
+}
+.grafico__container p:last-child {
+  font-weight: 700;
+}
+
 .modal-header {
   border: none;
   padding-bottom: 0;
@@ -275,7 +352,7 @@ nav li {
 
 .carousel__tittle {
   font-size: 1.2rem;
-  border-left: 5px #699C11 solid;
+  border-left: 7px #699C11 solid;
   padding-left: 10px;
   font-weight: 800;
   margin: 0;
@@ -285,6 +362,8 @@ nav li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 100px;
+  margin-top: 20px;
 }
 .carousel__img-1 {
   background-image: url(../img/gerenciamiento.jpg);
@@ -323,6 +402,27 @@ nav li {
   margin-bottom: 0;
 }
 
+@media (min-width: 992px) {
+  .carousel__img {
+    margin-top: 0;
+  }
+
+  .carousel__tittle {
+    font-size: 2rem;
+    border-left: 10px #699C11 solid;
+    padding-left: 10px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .carousel-item p {
+    font-size: 1rem;
+  }
+
+  .modal-body {
+    padding: 30px;
+  }
+}
 .accordion .card button {
   text-align: left;
   color: #111426;
@@ -362,6 +462,16 @@ nav li {
 .accordion .card button img:focus {
   transform: rotate(90deg);
   transition: transform;
+}
+
+@media (min-width: 992px) {
+  .accordion .card button {
+    font-size: 1.2rem;
+  }
+
+  .collapse .card__body, .collapsing .card__body {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

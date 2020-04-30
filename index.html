@@ -59,9 +59,23 @@
     </div>
   </header>
 
+  <section class="grafico container-fluid">
+    <div class="container grafico__container">
+      <div class="row">
+        <div class="col-12 col-md-7">
+          <h2>Eres lo que mides</h2>
+          <p>Los indicadores o KPI´s nos entregan evidencia para convertir cualquier esfuerzo en una mejor decisión. </p>
+          <p>Si puedes medir algo, puedes mejorarlo.</p>
+        </div>
+        <div class="col-12 col-md-5 grafico__img d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="assets/img/grafico.svg" alt="grafico">
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- accordion -->
-  <div class="container mt-3">
+  <div class="container mt-5">
     <div class="accordion" id="acordeon__preguntas">
       <div class="card">
         <div class="card-header" id="headingOne">
@@ -115,40 +129,40 @@
   <section id="servicios" class="container-fluid servicios mt-5">
     <div class="container">
       <h2>Nuestros Servicios</h2>
-      <div class="row">
-        <div class="servicios__card col-6 col-md-4">
+      <div class="w-100 d-flex justify-content-between flex-wrap">
+        <div class="servicios__card card-1">
           <div class="servicios__img servicios__img-1">
-            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+            <button id="btn-1" type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
           </div>
           <h3>Gerenciamiento y Administración de Proyectos</h3>
         </div>
-        <div class="servicios__card col-6 col-md-4">
+        <div class="servicios__card card-2">
           <div class="servicios__img servicios__img-2">
-            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+            <button id="btn-2" type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
           </div>
           <h3>Last <br> Planner <br> System</h3>
         </div>
-        <div class="mt-3 servicios__card col-6 col-md-4 ">
+        <div class="servicios__card card-3">
           <div class="servicios__img servicios__img-3">
-            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+            <button id="btn-3" type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
           </div>
           <h3>Inspección <br> Técnica de <br> Obras</h3>
         </div>
-        <div class="mt-3 servicios__card col-6 col-md-4 ">
+        <div class="servicios__card card-4">
           <div class="servicios__img servicios__img-4">
-            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+            <button id="btn-4" type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
           </div>
           <h3>Coordinación <br> de <br> Proyectos</h3>
         </div>
-        <div class="mt-3 servicios__card col-6 col-md-4">
+        <div class="servicios__card card-5">
           <div class="servicios__img servicios__img-5">
-            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+            <button id="btn-5" type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
           </div>
           <h3>Licitación y <br> Adjudicación <br> de Obras</h3>
         </div>
-        <div class="servicios__card col-6 col-md-4 mt-3">
+        <div class="servicios__card card-6">
           <div class="servicios__img servicios__img-6">
-            <button type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
+            <button id="btn-6" type="button" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/mas-verde.svg" alt=""></button>
           </div>
           <h3>Asesoría de <br> Construcción y <br> Especialidades</h3>
         </div>
@@ -168,70 +182,70 @@
         </button>
       </div>
       <div class="modal-body">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carousel-servicios" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="carousel-item-1" class="carousel-item active">
               <div class="row">
-                <div class="col-7">
+                <div class="col-12 col-md-6">
                   <h2 class="carousel__tittle">Gerenciamiento y Administración <br> de Proyectos</h2>
                 </div>
-                <div class="col-5 carousel__img carousel__img-1"></div>
+                <div class="col-12 col-md-6 carousel__img carousel__img-1"></div>
                 <div class="col-12 mt-4">
                   <p>Asesoría integral desde la concepción hasta el desarrollo y explotación del proyecto que comprende planificación, coordinación y dirección de cada una de las etapas.</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div id="carousel-item-2" class="carousel-item">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <h2 class="carousel__tittle">Last <br> Planner <br>System</h2>
                 </div>
-                <div class="col-6 carousel__img carousel__img-2"></div>
+                <div class="col-12 col-md-6 carousel__img carousel__img-2"></div>
                 <div class="col-12 mt-4">
                   <p>Metodología que proviene de la filosofía Lean Construcción, que se orienta en la 
                     administración de la producción de proyectos, que busca eliminar actividades y elementos que no agregan valor (Perdidas), maximizando el área productiva. Last Planner System crea flujos de trabajo e indicadores que muestran y reacondicionan la planificación de obras corriente, permitiendo entregar Variables medibles como % de actividades cumplidas, Causas de no cumplimiento, Niveles de eficiencia, Matriz y % de cumplimiento de restricciones.</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div id="carousel-item-3" class="carousel-item">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <h2 class="carousel__tittle">Inspección <br> Técnica <br> de Obras</h2>
                 </div>
-                <div class="col-6 carousel__img carousel__img-3"></div>
+                <div class="col-12 col-md-6 carousel__img carousel__img-3"></div>
                 <div class="col-12 mt-4">
                   <p>Su objetivo es velar por el cumplimiento de los aspectos administrativos y técnicos de la obra, donde su rol específico es cumplir con las normativas, especificaciones técnicas, bases administrativas y el contrato.</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div id="carousel-item-4" class="carousel-item">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <h2 class="carousel__tittle">Coordinación<br> de <br>Proyectos</h2>
                 </div>
-                <div class="col-6 carousel__img carousel__img-4"></div>
+                <div class="col-12 col-md-6 carousel__img carousel__img-4"></div>
                 <div class="col-12 mt-4">
                   <p>Servicio que contempla la planificación de las especialidades y de la arquitectura, logrando descomprimir y liberar las interferencias que estas generan en la ejecución logrando maximizar los tiempos de las obras.</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div id="carousel-item-5" class="carousel-item">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <h2 class="carousel__tittle">Licitación y<br> Adjudicación <br>de Obras</h2>
                 </div>
-                <div class="col-6 carousel__img carousel__img-5"></div>
+                <div class="col-12 col-md-6 carousel__img carousel__img-5"></div>
                 <div class="col-12 mt-4">
                   <p>Servicio que contempla dirigir el proceso de licitación a fin de obtener la mejor oferta económica y técnica, pasando desde la homologación de las ofertas hasta la recomendación para la adjudicación del mandante.</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div id="carousel-item-6" class="carousel-item">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <h2 class="carousel__tittle">Asesoría de<br> Construcción y <br>Especialidades</h2>
                 </div>
-                <div class="col-6 carousel__img carousel__img-6"></div>
+                <div class="col-12 col-md-6 carousel__img carousel__img-6"></div>
                 <div class="col-12 mt-4">
                   <p>Servicio que tiene por objetivo asesorar a nuestros clientes en ámbitos como: Asesoría Técnica y legal, Prevención de riesgos, Estructura organizacional, Evaluación de proveedores y equipos de trabajos, entre otros.</p>
                 </div>
@@ -239,12 +253,12 @@
             </div>
           </div>
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li id="indicator-1" data-target="#carousel-servicios" data-slide-to="0" class="active"></li>
+            <li id="indicator-2" data-target="#carousel-servicios" data-slide-to="1"></li>
+            <li id="indicator-3" data-target="#carousel-servicios" data-slide-to="2"></li>
+            <li id="indicator-4" data-target="#carousel-servicios" data-slide-to="3"></li>
+            <li id="indicator-5" data-target="#carousel-servicios" data-slide-to="4"></li>
+            <li id="indicator-6" data-target="#carousel-servicios" data-slide-to="5"></li>
             
           </ol>
         </div>
@@ -305,11 +319,11 @@
       <h2>Quienes Somos</h2>
       <div class="row somos__container">
         <div class="col-12 col-md-4">
-          <img src="assets/img/equipo.jpg" alt="" class="img-fluid">
+          <div class="somos__img"></div>
         </div>
         <div class="col-12 col-md-8">
-          <p>Somos constructores Civiles con más de 10 años de experiencia en la construcción y gerenciamiento de proyectos corporativos, habilitación de espacios de trabajo, locales comerciales especializados, industriales y residenciales de alto estándar.</p>
-          <p>En Nuestros años de experiencia hemos participado en las grandes constructoras del rubro corporativo, en cargos de alto desempeño, es por eso que nace la idea de crear MZ apuntando a contribuir con mejores mediciones en los proyectos con el fin de manejar y mejorar los plazos y costos de la obra.</p>
+          <p>Somos Constructores Civiles con más de 10 años de experiencia en la construcción y gerenciamiento de proyectos corporativos, habilitación de espacios de trabajo, locales comerciales especializados, industriales y residenciales de alto estándar.</p>
+          <p>En nuestros años de experiencia, hemos participado en las grandes constructoras del rubro corporativo en cargos de alto desempeño. Es por eso que nace la idea de crear MZ Ingeniería, apuntando a contribuir con mejores mediciones e indicadores a los variados proyectos de construcción con el fin de manejar y mejorar plazo, costos de la obra, gestión y la relación comercial.</p>
         </div>
       </div>
     </div>
@@ -324,8 +338,8 @@
       <h4 class="d-none d-md-block">MZ Ingeniería SPA 2020.</h4>
     </div>
     <div class="footer__datos">
-      <ul class="mt-2">
-        <li class="contacto__titulo">Contacto</li>
+      <ul class="mt-2 text-md-left">
+        <li class="contacto__titulo ">Contacto</li>
         <li>Martín de Zamora 5031, Las Condes.</li>
         <li>contacto@mzingenieria.cl</li>
         <li>Fono: +56 9 5714 6312</li>
@@ -343,6 +357,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/script_carousel-cards.js"></script>
 </body>
 
 </html>
